@@ -1,0 +1,11 @@
+<div fxLayoutAlign="center start" fxLayout="row"  *ngFor="let articles of data">
+    <div class="info" fxflex="40%"  fxLayoutAlign="center start" fxLayout="column">
+        <div>
+        <h1 class="title">{{articles.title}}</h1>
+        <p class="text">{{articles.description}}</p>
+    </div>
+    </div>
+    <div class="photo" fxflex="60%"   fxLayout="row">
+        <img src="{{articles.image}}" >
+    </div>
+</div>

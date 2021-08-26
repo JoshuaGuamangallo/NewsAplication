@@ -1,0 +1,8 @@
+{
+    "/api/*":{
+        "target": "https://newsapinet.herokuapp.com",
+        "secure": false,
+        "changeOrigin": true
+    }
+    
+}
