@@ -17,3 +17,5 @@
  -Sql
  -Heroku
  
+  # Nota
+  - Iniciar el proyecto de angular con el comando "npm start".
